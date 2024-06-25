@@ -240,4 +240,9 @@ a {
         max-height: 200px;
         opacity: 1;
     }
+
+    .profil p {
+        font-size: large;
+    }
+
 }
