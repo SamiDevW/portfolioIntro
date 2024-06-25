@@ -92,8 +92,6 @@ a {
 }
 
 .container {
-    /* border-top: solid rgba(128, 128, 128, 0.503) 3px;
-    border-bottom: solid rgba(128, 128, 128, 0.503) 3px; */
     padding: 20px 0;
     display: flex;
     justify-content: flex-start;
@@ -105,10 +103,13 @@ a {
     opacity: 0;
     transition: visibility 0s, opacity 0.3s ease-in-out;
     position: relative;
+    margin-bottom: 50px;
 }
 
 .card {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/lauren-mancke-aOC7TSLb1o8-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
     width: 300px;
     font-size: 32px;
     border-radius: 15px;
