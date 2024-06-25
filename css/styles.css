@@ -234,4 +234,10 @@ a {
         max-width: 70px;
         max-height: 70px;
     }
+
+    .description {
+        visibility: visible;
+        max-height: 200px;
+        opacity: 1;
+    }
 }

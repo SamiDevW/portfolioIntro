@@ -1,4 +1,5 @@
 export function appearingBlock() {
+
     const containers = document.querySelectorAll('.container')
     setTimeout(() => {
         containers.forEach((container => {
@@ -10,6 +11,11 @@ export function appearingBlock() {
 
         )
     }, 3000);
+    const isLargeScreen = window.matchMedia("(min-width: 768px)").matches;
+
+    if (!isLargeScreen) {
+        return; // Exit the function if the screen size is smaller than 768px
+    }
 
     const cards = document.querySelectorAll('.card');
 
