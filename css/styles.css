@@ -149,19 +149,19 @@ a {
 }
 
 .todo {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/Japan-2107x1406.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Japan-2107x1406.jpg');
     background-size: cover;
     border-color: white;
 }
 
 .out {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/hero-bg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero-bg.jpg');
     background-size: cover;
     border-color: #fb2056;
 }
 
 .dungeon {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/town.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/town.jpg');
     background-size: cover;
     border-color: black;
 
@@ -181,4 +181,18 @@ a {
 
 .list {
     background-color: rgba(255, 192, 203, 0.54);
+}
+
+.footer {
+    margin-top: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border-top-left-radius: 15px;
+    border-top-right-radius: 15px; */
+    background-color: rgba(168, 159, 160, 0.906);
+
+
 }
