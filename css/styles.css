@@ -204,3 +204,34 @@ a {
 
 
 }
+
+
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .todo-list,
+    .saved-elements {
+        flex: 1;
+    }
+
+
+    h1 {
+        font-size: 24px;
+    }
+
+    input,
+    button {
+        font-size: 1.2rem;
+        padding: 0.75rem;
+    }
+
+    .todo-item img,
+    .saved-item img {
+        max-width: 70px;
+        max-height: 70px;
+    }
+}
