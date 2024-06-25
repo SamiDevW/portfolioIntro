@@ -154,10 +154,19 @@ a {
     border-color: white;
 }
 
+.list {
+    background-color: rgba(255, 192, 203, 0.54);
+}
+
 .out {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero-bg.jpg');
     background-size: cover;
     border-color: #fb2056;
+}
+
+.door {
+    background-color: #fb205777;
+
 }
 
 .dungeon {
@@ -168,20 +177,19 @@ a {
 
 }
 
-.dungeon .link {
-    color: black;
-
-}
-
 .game {
     color: black;
     background-color: rgba(128, 128, 128, 0.404);
 
 }
 
-.list {
-    background-color: rgba(255, 192, 203, 0.54);
+.dungeon .link {
+    color: black;
+
 }
+
+
+
 
 .footer {
     margin-top: 600px;
