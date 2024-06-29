@@ -14,7 +14,7 @@ export function appearingBlock() {
     const isLargeScreen = window.matchMedia("(min-width: 768px)").matches;
 
     if (!isLargeScreen) {
-        return; // Exit the function if the screen size is smaller than 768px
+        return;
     }
 
     const cards = document.querySelectorAll('.card');
@@ -25,7 +25,7 @@ export function appearingBlock() {
 
         link.addEventListener('mouseover', function () {
             description.style.visibility = 'visible';
-            description.style.maxHeight = '300px'; // Adjust based on your needs
+            description.style.maxHeight = '300px';
             description.style.opacity = '1';
         });
 
